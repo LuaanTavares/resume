@@ -52,7 +52,7 @@ export const NavBar = () => {
           <a href="#"><li class="w-10 flex justify-center hover:font-semibold duration-75">Skills</li></a>
           <a href="#"><li class="w-10 flex justify-center hover:font-semibold duration-75">Career</li></a>
           <a href="#"><li class="w-16 flex justify-center hover:font-semibold duration-75">Education</li></a>
-          <a href="#"><li class="w-28 flex justify-center hover:font-semibold duration-75">More About Me</li></a>
+          <a href="#"><li class="w-32 flex justify-center hover:font-semibold duration-75">More About Me</li></a>
           <a href="#"><li class="w-10 flex justify-center hover:font-semibold duration-75">Footer</li></a>
         </ul>
 

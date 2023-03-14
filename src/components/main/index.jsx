@@ -1,5 +1,5 @@
 import background from '../../images/background.jpeg'
-import profile from '../../images/profile.png'
+import profile from '../../images/profile.jpeg'
 import { AiFillGithub } from "react-icons/ai"
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
@@ -14,7 +14,7 @@ export const Main = () => {
     <>
       <section class='text-gray-50 bg-no-repeat bg-cover'style={backgroundImageStyle}>
         <div class='pt-32 flex justify-center items-center flex-col p-4 h-full w-full bg-black bg-opacity-60'>
-          <img class="shadow-black shadow-xl p-3 rounded-full h-80 w-80" src='https://images.pexels.com/photos/9712732/pexels-photo-9712732.jpeg?auto=compress&cs=tinysrgb&w=600' alt="profile-image"/>
+                  <img class="shadow-black shadow-xl p-3 rounded-full h-80 w-80" src={profile} alt="profile-image"/>
           <div class='flex flex-col items-center'>
             <p class=' my-10 text-4xl'>Luan Tavares</p>
             <div class='flex gap-3 justify-center my-6'>
