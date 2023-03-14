@@ -11,7 +11,6 @@ export function Home(){
   return(
     <>
       <NavBar/>
-      <div className="pt-20"></div>
       <Main/>
       <About/>
       <Skills/>
